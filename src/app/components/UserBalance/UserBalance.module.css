@@ -1,0 +1,6 @@
+.userBalance {
+  display: flex;
+  justify-content: space-between;
+  color: var(--color-body);
+  padding-bottom: 24px;
+}

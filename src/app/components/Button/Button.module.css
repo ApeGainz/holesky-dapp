@@ -1,0 +1,21 @@
+.button {
+  padding: 1rem;
+  background-color: var(--color-brand-green);
+  color: var(--color-text-neutral);
+  cursor: pointer;
+  border-radius: 6px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-size: 14px;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  &:hover {
+    background-color: var(--color-brand-green-hover);
+    cursor: pointer;
+  }
+  &:disabled {
+    background-color: var(--color-disabled);
+    color: var(--color-disabled-text);
+  }
+}

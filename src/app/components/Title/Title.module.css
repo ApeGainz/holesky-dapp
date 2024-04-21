@@ -1,0 +1,25 @@
+/* Title.module.css */
+.title {
+  font-size: 56px; /* Approximation of Tailwind's text-4xl */
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #f9fafb; /* This is an approximation of Tailwind's neutral-50 */
+}
+
+.small {
+  font-size: 24px; /* Approximation of Tailwind's text-2xl */
+  font-weight: normal;
+  letter-spacing: 0.04em;
+}
+
+/* Media query for 'large' screens (Tailwind's 'lg' breakpoint is typically 1024px) */
+@media (min-width: 1024px) {
+  .title {
+    font-size: 72px; /* Approximation of Tailwind's text-7xl */
+  }
+
+  .small {
+    font-size: 40px; /* Approximation of Tailwind's text-5xl */
+  }
+}

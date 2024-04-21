@@ -1,0 +1,43 @@
+/* page.module.css */
+
+.connectButtonContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 24px;
+  margin-right: 24px;
+}
+
+.pageContainer {
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+}
+
+.centerContent {
+  display: flex;
+  flex-direction: column;
+  padding-top: 24px;
+  margin: auto;
+  width: 90%;
+  /* justify-content: center; */
+  height: 100%; /* Ensures it fills the parent container */
+}
+
+@media (min-width: 1024px) {
+  .centerContent {
+    width: 50%;
+  }
+}
+
+.headingContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.bodyContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}

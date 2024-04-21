@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border-top: 1px solid white;
+  padding-top: 40px;
+}
+
+.headingContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.bodyContainer {
+  color: var(--color-body);
+}
+
+.txLink {
+  text-decoration: underline;
+}
+
+.txList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.txItem {
+  display: flex;
+  justify-content: space-between;
+}
